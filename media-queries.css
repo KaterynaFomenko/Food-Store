@@ -1,0 +1,171 @@
+
+@media only screen and (min-width: 768px) {
+    @media only screen and (max-width: 768px) {
+        header{
+            background-color: black;
+            padding: 30px;
+
+
+        }
+        .Aperture_Studios h3{
+            padding: 10px;
+        }
+        .nav-but-wrap {
+            display: inline-block;
+        }
+
+    }
+    .nav{
+        position: fixed;
+    }
+    .nav__content{
+        position: fixed;
+        visibility: hidden;
+        top: 50%;
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        width: 100%;
+        text-align: center;
+    }
+    .nav__list-item{
+        opacity: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Aperture_Studios h3{
+        padding: 10px;
+    }
+    .nav-but-wrap {
+        display: inline-block;
+    }
+
+}
+.nav{
+    position: fixed;
+}
+.nav__content{
+    position: fixed;
+    visibility: hidden;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    width: 100%;
+    text-align: center;
+}
+.nav__list-item{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 414px) {
+    header {
+        padding: 0 15px;
+
+    }
+
+
+    header .d-flex nav {
+        padding: 0 5px;
+        display: none;
+    }
+
+    .Aperture_Studios {
+        height: 60vh;
+        padding: 100px;
+
+    }
+
+    .Aperture_Studios h3 {
+        font-size: 15px;
+    }
+
+    .Aperture_Studios h1 {
+        font-size: 20px;
+    }
+
+    .Aperture_Studios p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .sunset h3 {
+        font-size: 15px;
+        color: #FFFFFF;
+        text-align: center;
+        justify-content: end;
+        padding-right: 5px;
+    }
+
+    .sunset p {
+        font-size: 10px;
+        text-align: center;
+        justify-content: end;
+        padding: 15 5px;
+        line-height: 12px;
+    }
+
+    .p-clients {
+        padding-bottom: 100px;
+    }
+
+
+    .thetools {
+        display: block;
+        padding-left: 10px;
+        padding-top: 250px;
+        position: relative;
+    }
+
+    .tools3 {
+        font-size: 10px;
+    }
+
+    .container_tools img {
+        position: relative;
+        display: block;
+
+    }
+
+    .container_tools {
+        position: absolute;
+    }
+
+    .description {
+        margin: auto;
+    }
+
+    .description h1 {
+        padding-left: 1px;
+    }
+
+    .description p {
+        padding-left: 1px;
+    }
+
+    .description a {
+        margin-left: 132px;
+    }
+
+    .flex_container .right_item ul li a {
+        font-size: 8px;
+
+    }
+
+    .flex_container .right_item ul:first-of-type {
+        margin-right: 20px;
+    }
+
+    footer .form {
+        padding-left: 20px;
+        width: 100%;
+    }
+}
